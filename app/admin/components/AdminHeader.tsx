@@ -22,13 +22,7 @@ const AdminHeader = () => {
               Dashboard
             </Link>
             <Link href="/admin/products" className="hover:text-gray-300 transition-colors">
-              Produk
-            </Link>
-            <Link href="/admin/orders" className="hover:text-gray-300 transition-colors">
-              Pesanan
-            </Link>
-            <Link href="/admin/users" className="hover:text-gray-300 transition-colors">
-              Pengguna
+              Kelola Produk
             </Link>
           </nav>
 
