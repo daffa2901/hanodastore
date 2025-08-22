@@ -4,8 +4,8 @@ import "./globals.css";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import Carousel2 from "./components/Carousel2";
-
-
+import { Hero } from "./components/Hero";
+import { Calendar2 } from "./components/Calendar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,7 +34,6 @@ export default function RootLayout({
       >
         <Navbar/>
         {children}
-        {/* <Carousel2/> */}
         <Footer/>
       </body>
     </html>

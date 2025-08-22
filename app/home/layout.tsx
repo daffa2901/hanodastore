@@ -4,6 +4,7 @@ import "./globals.css";
 import { Navbar } from "../components/Navbar";
 import Carousel2 from "../components/Carousel2";
 import { Footer } from "../components/Footer";
+import { Hero } from "../components/Hero";
 
 
 
@@ -35,6 +36,7 @@ export default function RootLayout({
       >
         <Navbar/>
         {children}
+        <Hero/>
         <Carousel2/>
         <Footer/>
       </body>
